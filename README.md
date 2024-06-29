@@ -14,7 +14,23 @@ A typical ResNet architecture starts with a convolutional layer followed by seve
 
 ![The-model-architectures-of-different-variations-of-ResNets](https://github.com/Arash7662536/ResNet-model-and-Colorization/assets/129587820/6965f13a-d2b0-4620-8660-c381863a83f9)
 
-# CIFAR-10 Image Colorization using ResNet-18
+# U-Net: Biomedical Image Segmentation
+Welcome to the U-Net project! This repository demonstrates the implementation and application of U-Net, a powerful deep learning architecture designed for image segmentation tasks, particularly in the biomedical field.
+Introduction
+U-Net is a fully convolutional neural network introduced by Olaf Ronneberger and his team in 2015. It was specifically developed for biomedical image segmentation, addressing the challenge of limited annotated data in the medical field. U-Net’s architecture is designed to work effectively with small datasets, making it a popular choice for various image segmentation tasks.
+
+The U-Net architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. This design allows the network to learn from fewer training samples while achieving high accuracy.
+
+Key features of U-Net include:
+
+Skip Connections: These connections between corresponding layers in the contracting and expanding paths help retain spatial information, improving segmentation accuracy.
+Data Augmentation: U-Net can be trained with extensive data augmentation, enhancing its robustness and generalization capabilities.
+Versatility: While originally designed for biomedical applications, U-Net has been successfully applied to various other domains, including satellite imagery and autonomous driving.
+
+![download](https://github.com/Arash7662536/ResNet-model-and-Colorization/assets/129587820/a0a25c6d-61bb-4096-a6f4-b3fab0ecef11)
+
+
+# CIFAR-10 Image Colorization using UNET
 Welcome to the CIFAR-10 Image Colorization project! This repository showcases a deep learning approach to colorize grayscale images from the CIFAR-10 dataset using a ResNet-18 model.
 
 # Introduction
